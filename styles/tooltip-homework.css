@@ -1,0 +1,56 @@
+.video-preview{
+  /* referinta */
+  position: relative;  
+}
+
+.channel-picture:hover .video-tooltip{
+  opacity:1;
+}
+
+
+
+
+
+.video-tooltip{  
+  position: absolute; 
+  background-color: rgb(255, 255, 255);
+  bottom:-35px;  
+  left:50px;
+  display:flex;
+  align-items: center;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left:5px;
+  padding-right: 5px;
+  border-radius: 7px;
+  border:none;
+  box-shadow:5px 5px 8px 4px lightgray;
+  pointer-events:none;
+  opacity:0;
+}
+
+.tooltip-channel-picture{
+  display:block;
+  height:60px;
+  border-radius: 100%;
+  margin-right:15px;  
+}
+
+.tooltip-right-side{
+  line-height:25px;
+}
+
+
+.tooltip-profile-name{
+  font-family:Roboto, Arial;
+  font-size:17px;
+  font-weight: bold;
+}
+
+.tooltip-sub-title{
+  font-family:Roboto, Arial;
+  font-size:17px;
+  color:gray;
+}
+
+
